@@ -1,13 +1,7 @@
 import React, { useContext } from "react";
 import "./Works.css";
-// import Upwork from "../../img/Upwork.png";
-// import Fiverr from "../../img/fiverr.png";
-// import Amazon from "../../img/amazon.png";
-// import Shopify from "../../img/Shopify.png";
-// import Facebook from "../../img/Facebook.png";
 import ReactLogo from "../../img/react-logo.png";
 import JavascriptLogo from "../../img/javascript-logo.png";
-import MernLogo from "../../img/mern-stack-logo.png";
 import HtmlLogo from "../../img/html-logo.png";
 import CssLogo from "../../img/css-logo.png";
 import { themeContext } from "../../Context";
@@ -29,15 +23,14 @@ const Works = () => {
             Works for All these
           </span>
           <span>Technologies & Frameworks</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+          <spane id="span-text">
+          I worked with ReactJS, HTML, CSS, and JavaScript technologies and <br/>
+          frameworks to create a dynamic and interactive web application. <br/>
+          I utilized ReactJS, a JavaScript library for building user interfaces,<br/>
+           to build the core functionality of the site.
+            HTML and CSS were used <br/>for structure and styling, respectively, 
+          while JavaScript provided <br/>dynamic functionality and improved the overall user experience
+          
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button h-button">Hire Me</button>
@@ -65,7 +58,7 @@ const Works = () => {
             <img src={JavascriptLogo} alt="JavascriptLogo"  style={{width: "200px"}}/>
           </div>
           <div className="w-secCircle">
-            <img src={MernLogo} alt="MernLogo"  style={{width: "200px"}}/>
+            <img src="http://www.madrasmediacollege.com/wp-content/uploads/2015/10/webdesign.png" alt="MernLogo"  style={{width: "200px"}}/>
           </div>
           <div className="w-secCircle">
             <img src={CssLogo} alt="CssLogo"  style={{width: "100px"}}/>

@@ -4,8 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import myPortfolio from "../../img/myPortfolio.png";
 import movie from  "../../img/movie-search-site.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import foodProject from "../../img/food-project-img.png";
+import passwordGenerator from "../../img/password-generator.png";
+import ResponsiveCv from "../../img/responsive-cv-img.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,16 +25,22 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={myPortfolio} alt="" />
+          <a href=""><img src={myPortfolio} alt="" /></a>
+          
         </SwiperSlide>
         <SwiperSlide>
-          <img src={movie} alt="" />
+          <a href="https://food-project-chaitali.netlify.app/"> <img src={foodProject} alt="" /></a>
+         
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href="https://chaitali-movies-search-app.netlify.app/"> <img src={movie} alt="" /></a>
+       
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://chaitaliahire.netlify.app/"><img src={ResponsiveCv} alt="" style={{height: "9rem"}}/></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://chaitali-password-generator.netlify.app/"><img src={passwordGenerator} alt="" style={{height: "9rem"}}/></a>
         </SwiperSlide>
       </Swiper>
     </div>

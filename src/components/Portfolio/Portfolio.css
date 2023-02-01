@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    
   
   }
   /* heading */
@@ -12,6 +13,7 @@
     font-size: 2rem;
     font-weight: bold;
   }
+ 
   
   .portfolio span:nth-of-type(2) {
     color: var(--orange);

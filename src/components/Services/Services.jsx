@@ -27,9 +27,14 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-        As a MERN developer, my skills include expertise<br/> in MongoDB, Express.js, React.js, and Node.js <br/>for building and maintaining full-stack web <br/>applications. I am well-versed in front-end <br/>and back-end technologies, 
-        I am continuously<br/> learning new technologies and keeping<br/> up-to-date with the latest industry trends.
+        <spane id="span-text">
+        I have a solid understanding of ReactJS, a JavaScript libraryfor building <br/> user interfaces, 
+        and have utilized it to create dynamic and interactive web <br/>applications.  
+        My foundation in HTML and CSS allows me to develop <br/> well-structured andvisually appealing websites. 
+        Additionally,
+         I have a <br/> knowlege of JavaScript and have used it to add dynamic functionality<br/> to my projects. 
+        I am excited to continue building upon my skills in <br/>these technologies 
+         and to bring my passion for web development
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +51,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend Devloper"}
+            detail={"Html, CSS, JS, Bootstrap"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +63,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Reactjs Developer"}
+            detail={"Html, Css, JavaScript, React, Git and Github"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +75,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Web Design"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Html, CSS, Javascript"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
