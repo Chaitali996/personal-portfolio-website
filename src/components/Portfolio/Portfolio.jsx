@@ -25,15 +25,15 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href=""><img src={myPortfolio} alt="" /></a>
+          <a href="https://portfolio-website-chaitali-ahire.netlify.app/"><img src={myPortfolio} alt="" style={{height: "9rem"}}/></a>
           
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://food-project-chaitali.netlify.app/"> <img src={foodProject} alt="" /></a>
+          <a href="https://food-project-chaitali.netlify.app/"> <img src={foodProject} alt="" style={{height: "9rem"}}/></a>
          
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://chaitali-movies-search-app.netlify.app/"> <img src={movie} alt="" /></a>
+          <a href="https://chaitali-movies-search-app.netlify.app/"> <img src={movie} alt="" style={{height: "9rem"}} /></a>
        
         </SwiperSlide>
         <SwiperSlide>

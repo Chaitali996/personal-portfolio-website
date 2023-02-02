@@ -138,6 +138,11 @@
   animation: slideInLeft 0.5s;
 }
 
+@media only screen and (max-width: 480px) {
+  .n-button{
+    display: none;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* styles for extra small devices here */
@@ -146,6 +151,9 @@
   }
   .n-hamburger {
     display: block;
+  }
+  .n-button{
+    display: none;
   }
 }
 
