@@ -7,6 +7,7 @@ import movie from  "../../img/movie-search-site.png";
 import foodProject from "../../img/food-project-img.png";
 import passwordGenerator from "../../img/password-generator.png";
 import ResponsiveCv from "../../img/responsive-cv-img.png";
+import characterCounter from "../../img/real-time-character-counter.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -25,22 +26,25 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://portfolio-website-chaitali-ahire.netlify.app/"><img src={myPortfolio} alt="" style={{height: "9rem"}}/></a>
+          <a href="https://portfolio-website-chaitali-ahire.netlify.app/" target="_blank" rel="noreferrer"><img src={myPortfolio} alt="" style={{height: "9rem"}}/></a>
           
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://food-project-chaitali.netlify.app/"> <img src={foodProject} alt="" style={{height: "9rem"}}/></a>
+          <a href="https://food-project-chaitali.netlify.app/" target="_blank" rel="noreferrer"> <img src={foodProject} alt="" style={{height: "9rem"}}/></a>
          
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://chaitali-movies-search-app.netlify.app/"> <img src={movie} alt="" style={{height: "9rem"}} /></a>
+          <a href="https://chaitali-movies-search-app.netlify.app/" target="_blank" rel="noreferrer"> <img src={movie} alt="" style={{height: "9rem"}} /></a>
        
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://chaitaliahire.netlify.app/"><img src={ResponsiveCv} alt="" style={{height: "9rem"}}/></a>
+          <a href="https://chaitaliahire.netlify.app/" target="_blank" rel="noreferrer"><img src={ResponsiveCv} alt="" style={{height: "9rem"}}/></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://chaitali-password-generator.netlify.app/"><img src={passwordGenerator} alt="" style={{height: "9rem"}}/></a>
+          <a href="https://chaitali-password-generator.netlify.app/" target="_blank" rel="noreferrer"><img src={passwordGenerator} alt="" style={{height: "9rem"}}/></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://realtime-character-counter1.netlify.app/" target="_blank" rel="noreferrer"><img src={characterCounter} alt="" style={{height: "9rem"}}/></a>
         </SwiperSlide>
       </Swiper>
     </div>
