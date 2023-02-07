@@ -7,7 +7,6 @@ import movie from  "../../img/movie-search-site.png";
 import foodProject from "../../img/food-project-img.png";
 import passwordGenerator from "../../img/password-generator.png";
 import ResponsiveCv from "../../img/responsive-cv-img.png";
-import characterCounter from "../../img/real-time-character-counter.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -42,9 +41,6 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://chaitali-password-generator.netlify.app/" target="_blank" rel="noreferrer"><img src={passwordGenerator} alt="" style={{height: "9rem"}}/></a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://realtime-character-counter1.netlify.app/" target="_blank" rel="noreferrer"><img src={characterCounter} alt="" style={{height: "9rem"}}/></a>
         </SwiperSlide>
       </Swiper>
     </div>
