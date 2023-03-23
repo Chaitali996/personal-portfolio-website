@@ -30,11 +30,11 @@ const Services = () => {
         <spane id="span-text">
         I have a solid understanding of ReactJS, a JavaScript libraryfor building <br/> user interfaces, 
         and have utilized it to create dynamic and interactive web <br/>applications.  
-        My foundation in HTML and CSS allows me to develop <br/> well-structured andvisually appealing websites. 
+        My foundation in HTML and CSS allows me to develop <br/> well-structured and visually appealing websites. 
         Additionally,
          I have a <br/> knowlege of JavaScript and have used it to add dynamic functionality<br/> to my projects. 
         I am excited to continue building upon my skills in <br/>these technologies 
-         and to bring my passion for web development
+         and to bring my passion for web development.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>

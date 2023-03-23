@@ -8,10 +8,12 @@
   /* scroll view */
   padding-top: 3rem;
   
+  
 }
 #span-text{
   text-align: justify;
-
+  line-height: 1rem;
+  font-size: medium;
 }
 /* left side */
 .awesome {

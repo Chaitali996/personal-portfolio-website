@@ -11,6 +11,7 @@
   flex: 1;
   flex-direction: column;
   gap: 2rem;
+  
 }
 .i-name {
   display: flex;
